@@ -1,2 +1,2 @@
-streamlit : 
+streamlit : https://blobibob-padluna2-dashboarddash-l9swl9.streamlit.app/
 reposity : https://github.com/blobibob/submission
