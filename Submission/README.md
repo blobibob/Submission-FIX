@@ -37,8 +37,8 @@ Aplikasi ini memungkinkan pengguna untuk menganalisis data sepeda menggunakan Py
    - Pastikan terminal terarahkan ke folder proyek yang berisi file Python.
    - Jalankan aplikasi dengan perintah seperti yang disebutkan di langkah 3.
 
-7. **Memperbaiki Kesalahan: (OPSIONAL)**
-   - Jika mengalami kesalahan terkait dengan file `dashboard.py`, saran dari mentor dosen saya adalah coba periksa dan perbaiki jalur file pada bagian berikut:
+7. **Memperbaiki Kesalahan: **
+   - Apabila mengalami kesalahan atau error terkait dengan file `dashboard.py` (tidak terbacanya csv), saran dari mentor dosen saya adalah coba periksa dan perbaiki jalur file pada bagian berikut:
      ```python
      # Load data 
      day_df = pd.read_csv("Submission\dashboard\day_clean.csv")
@@ -47,8 +47,9 @@ Aplikasi ini memungkinkan pengguna untuk menganalisis data sepeda menggunakan Py
      Ganti menjadi:
      ```python
      # Load data 
-     day_df = pd.read_csv("dashboard/day_clean.csv")
-     hour_df = pd.read_csv("dashboard/hour_clean.csv")
+     day_df = pd.read_csv("dashboard\day_clean.csv")
+     hour_df = pd.read_csv("dashboard\hour_clean.csv")
      ```
+Catatan: Penampilan pesan kesalahan dan cara menangani masalah tersebut dapat berbeda-beda tergantung pada sistem operasi dan konfigurasi laptop.
 
 Dengan mengikuti langkah-langkah di atas, pengguna akan dapat menjalankan aplikasi analisis data menggunakan Streamlit dan menjelajahi hasil analisisnya.
